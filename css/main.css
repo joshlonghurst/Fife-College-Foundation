@@ -1,0 +1,294 @@
+/* Sets the base margins, background color and typography */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+/* Style's the base navbar, removing the border */
+
+.navbar.navbar-default {
+    background-color: white;
+    border-radius: 0;
+    border: 0;
+}
+/* Adds a slight dropshadow to the navbar */
+
+.navbar {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1) -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1) -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+/* Styles the hyperlinks within the navbar */
+
+.navbar .nav > li > a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 5px;
+    color: black;
+}
+
+/* Styles the active page indicator */
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    border-bottom: solid 2px #0159aa;
+    background-color: white;
+    padding-bottom: 15px;
+    color: #0159aa;
+}
+/* Removes the border from the jumbotron */
+
+.container .jumbotron,
+.container-fluid .jumbotron {
+    margin-top: 120px;
+    border-radius: 0px;
+}
+/* Makes hero image have no whitespace */
+
+.hero {
+    padding: 0px;
+}
+/* Styles the jumbotron */
+
+.jumbotron {
+    padding-top: 400px;
+    background-image: url('../assets/img/campus.png');
+    margin-bottom: 70px;
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+/* Creates the bold text within the jumbotron*/
+
+.jumbotron h1 {
+    color: #dddddd;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 7em;
+}
+/* Text in the jumbotron is grouped here */
+
+.textplace {
+    margin-top: -320px;
+    margin-left: 250px;
+}
+/* Heading for 'Who We Are' section */
+
+.light-heading {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+.who-we-are {
+  color: #161616;
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+
+.about-heading {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 35px;
+  color: #2c556c;
+  font-weight: 700;
+}
+
+.about-section {
+  background-color: #f1f1f1;
+  margin-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+hr {
+  color: blue;
+  background-color: #4782a4;
+  height: 5px;
+  width: 220px;
+  margin-top: 15px;
+
+}
+
+.trusteebox1 {
+  color: white;
+  background-color: #4782a4;
+  height: 200px;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(50,92,116,1);
+-moz-box-shadow: 10px 10px 0px 0px rgba(50,92,116,1);
+box-shadow: 10px 10px 0px 0px rgba(50,92,116,1);
+}
+
+.trusteebox {
+  color: white;
+  background-color: #4782a4;
+  height: 200px;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(50,92,116,1);
+-moz-box-shadow: 10px 10px 0px 0px rgba(50,92,116,1);
+box-shadow: 10px 10px 0px 0px rgba(50,92,116,1);
+}
+
+.trusteebox h1 {
+  font-size: 20px;
+  padding-top: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+font-weight: 300;
+color: white;
+}
+
+.trusteebox h2 {
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.recent-projects {
+  margin-top: 120px;
+}
+
+.newsect {
+  margin-top: 20px;
+}
+
+.recentprojects {
+  margin-top: 20px;
+  background-color: #4782a4;
+  box-shadow: 0px 0px 10px 0px rgba(119, 119, 119, 0.75);
+-moz-box-shadow: 0px 0px 10px 0px rgba(119, 119, 119, 0.75);
+-webkit-box-shadow: 0px 0px 10px 0px rgba(119, 119, 119, 0.75);
+
+}
+
+.recentprojects h1 {
+  color: white;
+}
+
+.arrow {
+  margin-top: 310px;
+}
+
+.apply {
+  margin-top: 200px;
+  background-color: black;
+  background-image: url('../assets/img/apply.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.applybox {
+  background-color: white;
+  padding-bottom: 50px;
+  margin-top: -50px;
+  webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.75);
+}
+
+
+.contact {
+  margin-top: 100px;
+  background-color: black;
+  background-image: url('../assets/img/macbook.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.red{
+    color:red;
+    }
+.form-area
+{
+  width: 100%;
+  height: 450px;
+    background-color: white;
+	padding: 0px 90px 60px;
+  webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 0px 6px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.75);
+	}
+
+  .contactbtn {
+    background-color: white;;
+    border: 1px solid grey;
+    border-radius: 0;
+    font-size: 18px;
+
+  }
+
+  .phonenumber {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+  }
+/* Media Queries */
+
+@media (max-width: 1920px) {
+  .jumbotron h1 {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 2880px) {
+  .jumbotron h1 {
+    margin-left: -90px;
+  }
+}
+@media (max-width:1596px) {
+  .jumbotron h1 {
+    margin-top: 60px;
+    font-size: 4em;
+  }
+}
+
+@media (max-width:1250px) {
+  .jumbotron h1 {
+    font-size: 4em;
+    margin-left: -250px;
+  }
+}
+
+@media (max-width:838px) {
+  .jumbotron h1 {
+    font-size: 3.4em;
+    margin-left: -250px;
+  }
+}
+
+@media (max-width:645px) {
+  .jumbotron h1 {
+    font-size: 4em;
+    margin-left: -250px;
+  }
+
+}
+.navbar-brand img {
+  height: 90px;
+  margin-left: 100px;
+}
+
+@media (max-width:768px) {
+.navbar-brand img {
+    height: 70px;
+    margin-left: 0px;
+  }
+}
+
+
+@-webkit-keyframes bounce {
+	0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
+    40%  { -webkit-transform: translateY(-20px); }
+	80% { -webkit-transform: translateY(-10px); }
+}
