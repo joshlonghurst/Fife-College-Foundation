@@ -56,7 +56,7 @@ body {
 
 .jumbotron {
     padding-top: 400px;
-    background-image: url('../assets/img/campus.png');
+    background-image: url('../assets/img/campus2.jpg');
     margin-bottom: 70px;
     min-height: 50%;
     background-repeat: no-repeat;
@@ -200,7 +200,7 @@ box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.75);
 .contact {
   margin-top: 100px;
   background-color: black;
-  background-image: url('../assets/img/macbook.png');
+  background-image: url('../assets/img/macbook2.jpg');
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -238,7 +238,7 @@ box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.75);
 .footertext {
   font-size: 12px;
   color: #899298;
-  
+
 }
 
 .footer-area {
