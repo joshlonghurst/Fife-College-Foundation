@@ -64,3 +64,11 @@ $('html, body').animate({
          }
      });
  }
+
+ $(window).scroll(function(){
+     if ($(this).scrollTop() > 750) {
+        $('.aboutnav').addClass('active');
+     } else {
+        $('.homenav').removeClass('active');
+     }
+ });
