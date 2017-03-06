@@ -246,6 +246,11 @@ box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.75);
   margin-top: -1px;
   color
 }
+
+.none {
+  border-bottom: none;
+  border: none;
+}
 /* Media Queries */
 
 @media (max-width: 1920px) {
