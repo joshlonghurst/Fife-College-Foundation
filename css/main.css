@@ -118,22 +118,17 @@ hr {
 
 }
 
-.trusteebox1 {
-  color: white;
-  background-color: #4782a4;
-  height: 200px;
-  -webkit-box-shadow: 10px 10px 0px 0px rgba(50,92,116,1);
--moz-box-shadow: 10px 10px 0px 0px rgba(50,92,116,1);
-box-shadow: 10px 10px 0px 0px rgba(50,92,116,1);
+.form-control {
+  border-radius: 0px;
 }
 
 .trusteebox {
   color: white;
   background-color: #4782a4;
   height: 200px;
-  -webkit-box-shadow: 10px 10px 0px 0px rgba(50,92,116,1);
--moz-box-shadow: 10px 10px 0px 0px rgba(50,92,116,1);
-box-shadow: 10px 10px 0px 0px rgba(50,92,116,1);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 .trusteebox h1 {
