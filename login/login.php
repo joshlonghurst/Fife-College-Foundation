@@ -54,10 +54,13 @@
   	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
   </head>
 <body>
-  <img class="animated fadeInDown img-responsive center-block" src=" ../assets/img/logo.png" width="13%;" alt="Logo" style="margin-top: 150px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+  <img class="logo animated fadeInDown img-responsive center-block" src=" ../assets/img/logo.png" id="logo" width="13%;" alt="Logo" style="">
   <div class="login">
   <div class="login-triangle"></div>
-
   <h2 class="login-header">Log in</h2>
     <form class="login-container" action="login.php" method="post" enctype="multipart/form-data">
         <p><input type="text" placeholder="Username" name="username"></p>
@@ -65,6 +68,9 @@
           <p><input name="login" type="submit" value="Log in">
     </form>
   </form>
+</div>
+</div>
+</div>
 </div>
 </body>
 </html>

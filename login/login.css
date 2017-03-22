@@ -112,3 +112,34 @@ body {
 .incorrecttext {
   text-align: center;
 }
+
+@media (max-width:1700px) {
+  .logo {
+    width: 26%;
+    margin-top: 120px;
+  }
+}
+
+@media (max-width:2000px) {
+  .logo {
+    width: 24%;
+        margin-top: 120px;
+  }
+}
+
+@media (max-width:850px) {
+  .logo {
+    width: 30%;
+    margin-top: 140px;
+  }
+
+  @media (max-width:580px) {
+    .logo {
+      width: 55%;
+      margin-top: 90px;
+    }
+    .login {
+      width: 100%;
+    }
+  }
+}
