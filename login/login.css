@@ -132,7 +132,7 @@ body {
     width: 30%;
     margin-top: 140px;
   }
-
+}
   @media (max-width:580px) {
     .logo {
       width: 55%;
@@ -142,4 +142,3 @@ body {
       width: 100%;
     }
   }
-}
