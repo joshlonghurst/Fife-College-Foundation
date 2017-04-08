@@ -125,12 +125,12 @@ hr {
 }
 
 .trusteebox {
-  color:black;
-  background-color: #f1f1f1;
+  color: white;
+  background-color: #4782a4;
   height: 200px;
-  /*-webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    1px 1px 5px 0px rgba(50, 50, 50, 0.75);
-box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.75);*/
+box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 .trusteebox h1 {
@@ -138,7 +138,7 @@ box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.75);*/
   padding-top: 15px;
   font-family: 'Source Sans Pro', sans-serif;
 font-weight: 300;
-color: grey;
+color: white;
 }
 
 .trusteebox h2 {
@@ -147,7 +147,6 @@ color: grey;
   font-weight: 600;
   margin-left: 20px;
 }
-
 
 .recent-projects {
   margin-top: 120px;
@@ -249,12 +248,6 @@ box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.75);
   border: none;
 }
 
-.applytext {
-  font-family: 'Source Sans Pro', sans-serif;
-font-weight: 300;
-margin-top:3%;
-}
-
 /* Media Queries */
 
 @media (max-width: 1920px) {
@@ -307,25 +300,6 @@ margin-top:3%;
   }
 }
 
-@media (min-width:300px) {
-.navbar-brand img {
-    height: 40px;
-    margin-top: -7px;
-  }
-}
-
-@media (max-width:300px) {
-.applytext {
-  margin-top: 40px;
-}
-}
-
-  @media (min-width:700px) {
-  .navbar-brand img {
-      height: 80px;
-      margin-top: 0px;
-    }
-}
 
 @-webkit-keyframes bounce {
 	0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }

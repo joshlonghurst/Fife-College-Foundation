@@ -1,29 +1,3 @@
-<?php
-$messback = 'Thanks for the email';
-$to = 'joshlonghurst29@gmail.com';
-$subject = 'this came from your mother';
-
-$name = $_POST['name'];
-$email = $_POST['email'];
-$message = $_POST['message'];
-
-$message = <<<EMAIL
-
-Name $name
-Email $email
-$message
-
-EMAIL;
-
-$header = '$email';
-if ($_POST) {
-	mail($to, $subject, $message, $header);
-}
-
-
-?>
-
-
 <!DOCTYPE html>
 <!-- START OF DOCUMENT -->
 <html lang="en">
@@ -86,7 +60,7 @@ if ($_POST) {
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<!-- Navbar links -->
 			<ul class="nav navbar-nav navbar-right ">
-				<li class="homenav">
+				<li class="homenav active">
 
 					<a href="#first">Home</a>
 				</li>
@@ -158,51 +132,69 @@ if ($_POST) {
 	<!-- New container starts -->
 	<div class="about-section">
 		<div class="container-fluid">
-			<div class="col-md-12">
+			<div class="col-md-12"></div>
 			<div class="col-md-6 col-md-offset-3 text-center">
 				<h4><b>Foundation Members</b></h4>
 			</div>
 			<div class="col-md-4">
 				<div class="trusteebox" data-aos="fade-up">
 					<h1 class="text-center">David Neilson</h1>
+					<h2>Position</h2><br>
+					<div class="col-md-4">
 						<img alt="Lecturer" class="img-responsive img-circle" src="assets/img/davidneilson.jpg"
-						  style="height:130px;margin-top:20px;">
+						  style="height:100px;margin-top:-10px;margin-left:0px;">
 					</div>
 				</div>
+			</div>
 			<div class="col-md-4">
 				<div class="trusteebox" data-aos="fade-up">
 					<h1 class="text-center">Chris Phillips</h1>
+					<h2>Position</h2><br>
 					<div class="col-md-4">
 						<img alt="Lecturer" class="img-responsive img-circle" src="assets/img/chrisphillips.jpg"
-						  style="height:130px;margin-top:20px;">
-						</div>
+						  style="height:100px;margin-top:-10px;margin-left:0px;">
 					</div>
 				</div>
-			<div class="col-md-4">
-				<div class="trusteebox" data-aos="fade-up">
-					<h1 class="text-center">Elizabeth Porter</h1>
-						<img alt="Lecturer" class="img-responsive img-circle" src="assets/img/elizabethporter.jpg"
-						  style="height:130px;margin-top:20px;">
-					</div>
-				</div>
-			<div class="col-md-4">
-				<div class="trusteebox" data-aos="fade-up">
-					<h1 class="text-center">John Macleod</h1>
-						<img alt="Lecturer" class="img-responsive img-circle" src="https://placeholdit.imgix.net/~text?txtsize=21&txt=225%C3%97225&w=225&h=225"
-						  style="height:130px;margin-top:20px;">
-					</div>
-				</div>
+			</div>
 
 			<div class="col-md-4">
 				<div class="trusteebox" data-aos="fade-up">
-					<h1 class="text-center">Ian Winn</h1>
-						<img alt="Lecturer" class="img-responsive img-circle" src="assets/img/ianwinn.jpg"
-						  style="height:130px;margin-top:20px;">
+					<h1 class="text-center">Elizabeth Porter</h1>
+					<h2>Position</h2><br>
+
+					<div class="col-md-4">
+						<img alt="Lecturer" class="img-responsive img-circle" src="assets/img/elizabethporter.jpg"
+						  style="height:100px;margin-top:-10px;margin-left:0px;">
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+		<div class="container-fluid newsect">
+			<div class="col-md-4 col-md-push-2">
+				<div class="trusteebox" data-aos="fade-up">
+					<h1 class="text-center">John Macleod</h1>
+					<h2>Position</h2><br>
+
+					<div class="col-md-4">
+						<img alt="Lecturer" class="img-responsive img-circle" src="https://placeholdit.imgix.net/~text?txtsize=21&txt=225%C3%97225&w=225&h=225"
+						  style="height:100px;margin-top:-10px;margin-left:0px;">
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-md-push-2">
+				<div class="trusteebox" data-aos="fade-up">
+					<h1 class="text-center">Ian Winn</h1>
+					<h2>Position</h2><br>
+
+					<div class="col-md-4">
+						<img alt="Lecturer" class="img-responsive img-circle" src="assets/img/ianwinn.jpg"
+						  style="height:100px;margin-top:-10px;margin-left:0px;">
+
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div id="third"></div>
 	<div class="recent-projects">
@@ -213,8 +205,8 @@ if ($_POST) {
 				<div data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-1.jpg">
 					<div class="col-xs-6">
 						<h3 style="color:white;"><b>Levenmouth Campus</b></h3><br><br>
-						<!--<p style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed enim ut justo dictum molestie non id arcu. In porttitor blandit imperdiet. Duis sit amet purus sit amet velit tincidunt accumsan. Nullam sed lacinia libero. Nulla facilisi. Cras egestas et massa sed tristique. Aenean vestibulum suscipit mi nec ornare. Vestibulum a suscipit ipsum, id aliquet nibh. Nunc vehicula consequat tellus, eu rutrum erat facilisis nec. Morbi quis ante id lacus consectetur porta interdum blandit leo. Nullam nisi tortor, gravida sit amet tortor quis, auctor feugiat mauris. Nullam odio odio, ullamcorper ac nulla quis, posuere lacinia sapien. Nulla pharetra ac leo at bibendum.</p>
-						</p>-->
+						<p style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed enim ut justo dictum molestie non id arcu. In porttitor blandit imperdiet. Duis sit amet purus sit amet velit tincidunt accumsan. Nullam sed lacinia libero. Nulla facilisi. Cras egestas et massa sed tristique. Aenean vestibulum suscipit mi nec ornare. Vestibulum a suscipit ipsum, id aliquet nibh. Nunc vehicula consequat tellus, eu rutrum erat facilisis nec. Morbi quis ante id lacus consectetur porta interdum blandit leo. Nullam nisi tortor, gravida sit amet tortor quis, auctor feugiat mauris. Nullam odio odio, ullamcorper ac nulla quis, posuere lacinia sapien. Nulla pharetra ac leo at bibendum.</p>
+						</p>
 					</div>
 					<div class="col-xs-6">
 						<img class="img-responsive" src="assets/img/campusprojectbox.png" />
@@ -257,7 +249,8 @@ if ($_POST) {
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 applybox">
-				<h4 class="text-center applytext">To apply for funding, follow the insturctions on the page below.</h4><br> <button type="button" style="border-radius:0;background-color:#4782a4;font-weight:300;border:none;"class="btn btn-info btn-lg center-block"
+				<h4 class="text-center" style="font-family: 'Source Sans Pro', sans-serif;
+font-weight: 300;margin-top:3%;">To apply for funding, follow the insturctions on the page below.</h4><br> <button type="button" style="border-radius:0;background-color:#4782a4;font-weight:300;border:none;"class="btn btn-info btn-lg center-block"
 				  data-toggle="modal" data-target="#myModal" style="margin-top: 40px;" data-aos="zoom-in">Open Application Form</button>
 
 				<!-- Modal -->
@@ -344,21 +337,20 @@ if ($_POST) {
 				<div class="contactform">
 					<div class="col-xs-12 col-sm-7 col-md-4 col-md-push-8">
 						<div class="form-area" style="margin-top: -470px; width:80%;" data-aos="zoom-in">
-							<form name="contact" action="?" method="POST">
+							<form name="contact" method="post" action="send_form.php">
 								<br style="clear:both">
 								<h3 style="margin-bottom: 25px; text-align: center;">Get in touch</h3>
-								<p id="feedback"><?php echo $messback; ?></p>
 								<div class="form-group">
-									<input type="text" class="form-control" name="name" placeholder="Your Name" required>
+									<input type="text" class="form-control" id="name" value="name" placeholder="Your Name" required>
 								</div>
 								<div class="form-group">
-									<input type="text" class="form-control" name="email" placeholder="Your Email" required>
+									<input type="text" class="form-control" id="email" value="email" placeholder="Your Email" required>
 								</div>
 								<div class="form-group">
-									<textarea class="form-control" type="textarea" name="message" placeholder="Comments" maxlength="500" rows="7"></textarea>
+									<textarea class="form-control" type="textarea" id="message" value="message" placeholder="Comments" maxlength="500" rows="7"></textarea>
 								</div>
 
-								<button type="button" input="submit" name="submit" style="margin-top:px;" class="btn contactbtn center-block"><b>Send</a></b></button>
+								<button type="button" id="submit" name="submit" style="margin-top:px;" class="btn contactbtn center-block"><b>Send</b></button>
 							</form>
 						</div>
 					</div>
