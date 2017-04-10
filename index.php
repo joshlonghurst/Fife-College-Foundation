@@ -139,7 +139,7 @@
 			<div class="col-md-4">
 				<div class="trusteebox" data-aos="fade-up">
 					<h1 class="text-center">David Neilson</h1>
-					<h2>Position</h2><br>
+
 					<div class="col-md-4">
 						<img alt="Lecturer" class="img-responsive img-circle" src="assets/img/davidneilson.jpg"
 						  style="height:100px;margin-top:-10px;margin-left:0px;">
@@ -149,7 +149,7 @@
 			<div class="col-md-4">
 				<div class="trusteebox" data-aos="fade-up">
 					<h1 class="text-center">Chris Phillips</h1>
-					<h2>Position</h2><br>
+
 					<div class="col-md-4">
 						<img alt="Lecturer" class="img-responsive img-circle" src="assets/img/chrisphillips.jpg"
 						  style="height:100px;margin-top:-10px;margin-left:0px;">
@@ -160,7 +160,7 @@
 			<div class="col-md-4">
 				<div class="trusteebox" data-aos="fade-up">
 					<h1 class="text-center">Elizabeth Porter</h1>
-					<h2>Position</h2><br>
+
 
 					<div class="col-md-4">
 						<img alt="Lecturer" class="img-responsive img-circle" src="assets/img/elizabethporter.jpg"
@@ -173,10 +173,10 @@
 			<div class="col-md-4 col-md-push-2">
 				<div class="trusteebox" data-aos="fade-up">
 					<h1 class="text-center">John Macleod</h1>
-					<h2>Position</h2><br>
+
 
 					<div class="col-md-4">
-						<img alt="Lecturer" class="img-responsive img-circle" src="https://placeholdit.imgix.net/~text?txtsize=21&txt=225%C3%97225&w=225&h=225"
+						<img alt="Lecturer" class="img-responsive img-circle" src="assets/img/jmcleod.png"
 						  style="height:100px;margin-top:-10px;margin-left:0px;">
 					</div>
 				</div>
@@ -185,7 +185,7 @@
 			<div class="col-md-4 col-md-push-2">
 				<div class="trusteebox" data-aos="fade-up">
 					<h1 class="text-center">Ian Winn</h1>
-					<h2>Position</h2><br>
+
 
 					<div class="col-md-4">
 						<img alt="Lecturer" class="img-responsive img-circle" src="assets/img/ianwinn.jpg"
@@ -205,7 +205,7 @@
 				<div data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-1.jpg">
 					<div class="col-xs-6">
 						<h3 style="color:white;"><b>Levenmouth Campus</b></h3><br><br>
-						<p style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed enim ut justo dictum molestie non id arcu. In porttitor blandit imperdiet. Duis sit amet purus sit amet velit tincidunt accumsan. Nullam sed lacinia libero. Nulla facilisi. Cras egestas et massa sed tristique. Aenean vestibulum suscipit mi nec ornare. Vestibulum a suscipit ipsum, id aliquet nibh. Nunc vehicula consequat tellus, eu rutrum erat facilisis nec. Morbi quis ante id lacus consectetur porta interdum blandit leo. Nullam nisi tortor, gravida sit amet tortor quis, auctor feugiat mauris. Nullam odio odio, ullamcorper ac nulla quis, posuere lacinia sapien. Nulla pharetra ac leo at bibendum.</p>
+						<p style="color:white;">The new Levenmouth Campus has now fully opened. We aided the college with funds to ~~.</p>
 						</p>
 					</div>
 					<div class="col-xs-6">
@@ -215,7 +215,7 @@
 				<div data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-2.jpg">
 					<div class="col-xs-6">
 						<h3 style="color:white;"><b>Project 2</b></h3><br><br>
-						<p style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed enim ut justo dictum molestie non id arcu. In porttitor blandit imperdiet. Duis sit amet purus sit amet velit tincidunt accumsan. Nullam sed lacinia libero. Nulla facilisi. Cras egestas et massa sed tristique. Aenean vestibulum suscipit mi nec ornare. Vestibulum a suscipit ipsum, id aliquet nibh. Nunc vehicula consequat tellus, eu rutrum erat facilisis nec. Morbi quis ante id lacus consectetur porta interdum blandit leo. Nullam nisi tortor, gravida sit amet tortor quis, auctor feugiat mauris. Nullam odio odio, ullamcorper ac nulla quis, posuere lacinia sapien. Nulla pharetra ac leo at bibendum. </p>
+						<p style="color:white;">Project 2 will go here.</p>
 						</p>
 					</div>
 					<div class="col-xs-6">
@@ -225,7 +225,7 @@
 				<div data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-3.jpg">
 					<div class="col-xs-6">
 						<h3 style="color:white;"><b>Project 3</b></h3><br><br>
-						<p style="color:white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed enim ut justo dictum molestie non id arcu. In porttitor blandit imperdiet. Duis sit amet purus sit amet velit tincidunt accumsan. Nullam sed lacinia libero. Nulla facilisi. Cras egestas et massa sed tristique. Aenean vestibulum suscipit mi nec ornare. Vestibulum a suscipit ipsum, id aliquet nibh. Nunc vehicula consequat tellus, eu rutrum erat facilisis nec. Morbi quis ante id lacus consectetur porta interdum blandit leo. Nullam nisi tortor, gravida sit amet tortor quis, auctor feugiat mauris. Nullam odio odio, ullamcorper ac nulla quis, posuere lacinia sapien. Nulla pharetra ac leo at bibendum. </p>
+						<p style="color:white;">Project 3 will go here.</p>
 						</p>
 					</div>
 					<div class="col-xs-6">
@@ -336,7 +336,7 @@ font-weight: 300;margin-top:3%;">To apply for funding, follow the insturctions o
 				</div>
 				<div class="contactform">
 					<div class="col-xs-12 col-sm-7 col-md-4 col-md-push-8">
-						<div class="form-area" style="margin-top: -470px; width:80%;" data-aos="zoom-in">
+						<div class="form-area" style="margin-top: -470px; width:100%;" data-aos="zoom-in">
 							<form name="contact" method="post" action="send_form.php">
 								<br style="clear:both">
 								<h3 style="margin-bottom: 25px; text-align: center;">Get in touch</h3>

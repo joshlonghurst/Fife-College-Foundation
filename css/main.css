@@ -32,6 +32,20 @@ body {
     margin-right: 25px;
 }
 
+@media (max-width:200px) {
+  .navbar .nav > li > a{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width:800px) {
+  .navbar .nav > li > a{
+    margin-left: -25px;
+    margin-right: 25px;
+  }
+}
+
 /* Styles the active page indicator */
 
 .navbar-default .navbar-nav>.active>a,
@@ -125,8 +139,8 @@ hr {
 }
 
 .trusteebox {
-  color: white;
-  background-color: #4782a4;
+  color: black;
+  background-color: #ededed;
   height: 200px;
   -webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
 -moz-box-shadow:    1px 1px 5px 0px rgba(50, 50, 50, 0.75);
@@ -138,7 +152,7 @@ box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.75);
   padding-top: 15px;
   font-family: 'Source Sans Pro', sans-serif;
 font-weight: 300;
-color: white;
+color: black;
 }
 
 .trusteebox h2 {
@@ -248,6 +262,8 @@ box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.75);
   border: none;
 }
 
+
+
 /* Media Queries */
 
 @media (max-width: 1920px) {
@@ -299,6 +315,32 @@ box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.75);
     margin-left: 0px;
   }
 }
+
+@media (max-width:500px) {
+.navbar-brand img {
+    height: 33px;
+    margin-top: -6px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width:600px) {
+.navbar-brand img {
+
+  }
+}
+
+@media (min-device-width:320px) {
+        img[data-src-960px] {
+            content: attr(data-src-960px, url);
+        }
+    }
+
+    @media (min-device-width:960px) {
+        img[data-src-1260px] {
+            content: attr(data-src-1260px, url);
+        }
+    }
 
 
 @-webkit-keyframes bounce {

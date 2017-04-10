@@ -52,7 +52,7 @@ $('html, body').animate({
  });
 
 
- function onScroll(event){
+ /*function onScroll(event){
      var scrollPos = $(document).scrollTop();
      $('#navbar a').each(function () {
          var currLink = $(this);
@@ -65,12 +65,42 @@ $('html, body').animate({
              currLink.removeClass("active");
          }
      });
- }
+ }*/
 
  $(window).scroll(function(){
+   if ($(this).scrollTop() > 10) {
+      $('.homenav').addClass('active');
+      $('.aboutnav').removeClass('active');
+      $('.projectsnav').removeClass('active');
+      $('.applynav').removeClass('active');
+      $('.contactnav').removeClass('active');
+    }
+
      if ($(this).scrollTop() > 750) {
         $('.aboutnav').addClass('active');
-     } else {
         $('.homenav').removeClass('active');
-     }
+      }
+      if ($(this).scrollTop() > 950) {
+         $('.projectsnav').addClass('active');
+         $('.aboutnav').removeClass('active');
+}
+if ($(this).scrollTop() > 1550) {
+     $('.applynav').addClass('active');
+      $('.projectsnav').removeClass('active');
+}
+
+if ($(this).scrollTop() > 2300) {
+     $('.contactnav').addClass('active');
+      $('.applynav').removeClass('active');
+}
  });
+
+ var onScrollHandler = function() {
+  var newImageUrl = "logo.png";
+  var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+  if (scrollTop > 100) {
+     newImageUrl = "logo-mobile.png"
+  }
+  yourImageElement.src = newImageUrl;
+};
+object.addEventListener ("scroll", onScrollHandler);
